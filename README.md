@@ -150,14 +150,21 @@ All Option 1 capabilities plus automatic scoring system generation, formal ranki
 ```
 LLM-Recommendation-Agent/
 ├── README.md
-├── notes/
-│   ├── ai-agent-for-evaluating-llms-for-specific-tasks.md
-│   └── SPEC.md
-├── transcript/
-│   ├── cleaned-transcript.md
-│   └── raw-transcript.md
-├── AI-Output/              # Implementation planning documents
-└── note.opus
+├── Ideas/                  # Original inputs and ideation
+│   ├── Voice-Notes/        # Voice recordings
+│   │   └── note.opus
+│   └── Transcripts/        # Transcribed voice notes
+│       ├── cleaned-transcript.md
+│       └── raw-transcript.md
+├── Specs/                  # Specifications and planning documents
+│   ├── SPEC.md
+│   ├── 01-MCP-Tooling-Breakdown.md
+│   ├── 02-LLM-Requirements-Breakdown.md
+│   ├── 03-Workflow-Design-Breakdown.md
+│   ├── 04-Data-Sources-Integration-Breakdown.md
+│   ├── 05-Implementation-Roadmap.md
+│   └── README.md
+└── Implementation/         # Code (empty - not yet started)
 ```
 
 ## Technical Requirements
